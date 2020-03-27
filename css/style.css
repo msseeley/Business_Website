@@ -9,6 +9,7 @@
 /* Presets */
 body{
   font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
 }
 
 a{
@@ -24,6 +25,35 @@ p{
   color:#93Cb52;
 }
 
+.l-heading{
+  font-size:4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  display: inline-block;
+  color: white;
+  background: #93cb52;
+  padding: 0.5rem 2rem;
+  /* for when class is applied to a button */
+  border:none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background: #7ab436;
+}
+
+.btn-dark{
+  background:#333;
+  color:white;
+}
 /* Navbar */
 
 #navbar{
@@ -52,4 +82,28 @@ p{
 #navbar ul a:hover{
   background:#93Cb52;
   border-radius: 5px;
+}
+
+/* Showcase */
+#showcase{
+  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+  /* could add a negative margin to make the photo perfectly fit */
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  /* overlay */
+  position: absolute;
+  /* top has to be moved down to fit background image positioning*/
+  top: 60px;
+  left: 0;
+  /* a indicates the opacity of the color. 1 being opaque */
+  background-color: rgba(0,0,0,0.4)
 }
