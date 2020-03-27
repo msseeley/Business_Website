@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+/* Presets */
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -16,4 +17,39 @@ a{
 
 p{
   margin: 0.75rem 0;
+}
+
+/* Utility Classes*/
+.text-primary{
+  color:#93Cb52;
+}
+
+/* Navbar */
+
+#navbar{
+  display:flex;
+  position: sticky;
+  top:0;
+  background: #333;
+  color: white;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul a{
+  color:white;
+  padding: 0.75rem;
+  margin: 0rem 0.25rem;
+}
+
+#navbar ul a:hover{
+  background:#93Cb52;
+  border-radius: 5px;
 }
