@@ -21,6 +21,18 @@ p{
 }
 
 /* Utility Classes*/
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center{
+  text-align: center;
+}
+
 .text-primary{
   color:#93Cb52;
 }
@@ -31,10 +43,20 @@ p{
   line-height: 1.1;
 }
 
+.m-heading{
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
 .lead{
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
+
+.py-1{padding: 1.5rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
 
 .btn{
   display: inline-block;
@@ -54,6 +76,7 @@ p{
   background:#333;
   color:white;
 }
+
 /* Navbar */
 
 #navbar{
@@ -104,6 +127,28 @@ p{
   /* top has to be moved down to fit background image positioning*/
   top: 60px;
   left: 0;
+  right: 0;
+  bottom: 0;
   /* a indicates the opacity of the color. 1 being opaque */
   background-color: rgba(0,0,0,0.4)
+}
+
+/* Section: What We Do */
+
+#what .items{
+  display:flex;
+  padding: 1rem;
+}
+
+#what .items .item{
+  float: 1px;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items i{
+  background: #93Cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
