@@ -47,6 +47,11 @@ p{
   color: #fff;
 }
 
+.bg-primary{
+  background:#93Cb52;
+  color:#fff;
+}
+
 .l-heading{
   font-size:4rem;
   margin-bottom: 0.75rem;
