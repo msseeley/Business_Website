@@ -207,3 +207,27 @@ p{
   margin: auto;
   width: 60%;
 }
+
+/* Section: Contact */
+
+#contact{
+  display:flex;
+}
+#contact .contact-form,
+#contact .map{
+  flex: 1;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.75rem;
+}
+
+#contact .contact-form label{
+  display: block
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
