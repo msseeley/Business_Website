@@ -1,3 +1,5 @@
+
+// Initializing Google Map
 function initMap() {
   const loc = {
     lat: 40.6602037,
@@ -8,12 +10,14 @@ function initMap() {
   const marker = new google.maps.Marker({ position: loc, map: map });
 }
 
+// changing navbar opacity based on scroll y-axis position
 window.addEventListener('scroll', function () {
   if (window.scrollY > 150) {
     document.querySelector('#navbar').style.opacity = 0.9
   }
 })
 
+// Implementing smooth scrolling when navigating from navbar or button
 $('#navbar a, btn').on('click', function (event) {
   if (this.hash !== '') {
     event.preventDefault();
