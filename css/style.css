@@ -109,9 +109,9 @@ p{
 /* Navbar */
 
 #navbar{
-  display:flex;
+  display: flex;
   position: sticky;
-  top:0;
+  top: 0;
   background: #333;
   color: white;
   justify-content: space-between;
